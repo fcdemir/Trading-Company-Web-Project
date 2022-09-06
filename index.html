@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+    <meta name="description" content="Bar & Restaurant Website/Webpage, Dublin, Ireland, Restaurant, Bar, Pub">
+    <meta name="author" content="Furkan Demir, fcdemir">
+    <link rel="icon" type="image/png" href="./content/img/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="./content/img/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./content/img/icons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="./content/img/icons/favicon-180x180.png" sizes="180x180">
+    <title>Trading Company</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./content/css/style.css">
+    <link rel="stylesheet" href="./content/css/slick.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- SCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./content/js/slick.js"></script>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;500;700&display=swap" rel="stylesheet">
+    
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+</head>
+
+
+<body>
+
+    <div id="tradingcompany"></div>
+    <header class="d-flex flex-column justify-content-center">
+
+        <nav class="d-flex flex-wrap justify-content-center">
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                <a href="#tradingcompany">
+                    <img class="img-fluid" src="./content/img/welcome/logo.png" alt="Logo">
+                </a>
+            </div>
+
+            <div
+                class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column align-items-center justify-content-center">
+                <a class="p-2" href="#ourservices">SERVICES</a>
+                <a class="p-2" href="#about">ABOUT</a>
+                <a class="p-2" href="#products">PRODUCTS</a>
+                <a class="p-2" href="#contact">CONTACT</a>
+            </div>
+        </nav>
+
+        <div class="container">
+                <h1 class="text-white text-end fw-bold display-4">WELCOME!</h1>
+                <h5 class="text-white text-end fw-medium">MARBLE EXPORTATION COMPANY</h5>
+        </div>
+
+        <script>
+            $(document).ready(function () {
+                $(window).scroll(function () {
+                    var scroll = $(window).scrollTop();
+                    if (scroll > 1) {
+                        $("nav").css("background", "rgba(0, 0, 0, 0.900)");
+                        $("nav a").css("color", "white");
+                        $("nav").css("padding", "1% 0");
+                    }
+    
+                    else {
+                        $("nav").css("background", "rgba(0, 0, 0, 0)");
+                        $("nav").css("color", "black");
+                        $("nav").css("padding", "2% 0");
+                    }
+                })
+            })
+        </script>
+
+    </header>
+
+
+    <main class="container-fluid gx-0">
+
+
+        <!-- AD BAR FOR SHORT INFORMATION  -->
+
+        <div class="container d-flex flex-wrap gap-5 pb-5 justify-content-center">
+
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 rounded shadow p-3 adbar-item my-3">
+                        <img class="adbar-img p-3" src="./content/img/adbar/access_time_filled_white_48dp.svg" alt="7/24 Support">
+                        <h5 class="fw-medium text-white text-end">7/24 Support</h5>
+                        <p class="fw-light text-white">In order to have information about our products, you can contact
+                            us from various platforms 7/24 as
+                            you wish. </p>       
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 rounded shadow p-3 adbar-item my-3">
+                        <img class="adbar-img p-3" src="./content/img/adbar/pin_drop_white_48dp.svg" alt="Onsite Observation">
+                        <h5 class="fw-medium text-white text-end">Onsite</h5>
+                        <p class="fw-light text-white">According to your needs, we show the products onsite that is
+                            requested seeing and give detailed
+                            information!</p>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 rounded shadow p-3 adbar-item my-3">
+                        <img class="adbar-img p-3" src="./content/img/adbar/access_time_filled_white_48dp.svg"
+                            alt="Fast Access">
+                        <h5 class="text-white fw-medium text-end">Fast Access</h5>
+                        <p class="text-white fw-light">We know the importance of your essential needs, we fastly supply from the most quality marble pits around the world.</p>
+                </div>
+ 
+                
+      
+        </div>
+
+
+        <!-- OUR SERVICES -->
+
+        <div id="ourservices"></div>
+        <div class="container py-5 my-5">
+
+            <div class="col-12 text-center">
+                <h2>Our Services</h2>
+                <p class="text-grey">By various services and product types, we always serve to our customers according to their requests.
+                </p>
+            </div>
+
+            <div class="container d-flex flex-wrap">
+
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 p-3 text-center">
+
+                    <div class="col-12">
+                        <img class="w-75" src="./content/img/services/stone1.png" alt="Marble Stone">
+                    </div>
+
+                    <div class="col-12 p-3 text-bg">
+                        <h5 class="text-center text-white">BLOCK MARBLE</h5>
+                        <p class="text-start text-grey fw-light service-p"> By relying on our product pool, we supply
+                            the most quality block marbles from the
+                            various areas to our customers . We deliver the products that are requested by different delivery options as
+                            in the most suitable way.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 p-3 text-center">
+
+                    <div class="col-12">
+                        <img class="w-75" src="./content/img/services/stone2.png" alt="Marble Stone">
+                    </div>
+
+                    <div class="col-12 p-3 text-bg">
+                        <h5 class="text-center text-white">SLABS</h5>
+                        <p class="text-start text-grey fw-light service-p"> We also supply our products that are
+                            produced from various areas, by shaping them as slabs based on
+                            the requests. We guarantee that we will supply the products in
+                            safe wherever our customers are at.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 p-3 text-center">
+
+                    <div class="col-12">
+                        <img class="w-75" src="./content/img/services/stone3.png" alt="Marble Stone">
+                    </div>
+
+                    <div class="col-12 p-3 text-bg">
+                        <h5 class="text-center text-white">SPECIFIC SIZES</h5>
+                        <p class="text-start text-grey fw-light service-p"> As well as block marble and marble slabs,
+                            we also supply various size of marble tiles and specific
+                            product types to around the world such as knickknackery, kitchen and bathroom essentials.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- SALE PROCESS -->
+
+        <div class="container-fluid gx-0 py-5 my-5">
+
+                <button type="button" class="sale-button w-100 shadow py-4 d-flex align-items-center justify-content-center">
+                    <h5 class="text-white text-center">SO, HOW DO WE PROCESS?</h5>
+                    <span class="material-symbols-outlined text-white px-2">expand_more</span>
+                </button>
+
+                <div class="col-12 text-center sale-img pt-5 mt-5">
+                    <img class="w-50" src="./content/img/sp/SaleProcesses.png" alt="SaleProcesses">
+                </div>
+        </div>
+
+        <script>
+            $(document).ready(function () {
+                $('.sale-button').click(function () {
+                    $('.sale-img').toggle();
+                });
+            });
+        </script>
+
+
+        <!-- ABOUT -->
+        <div id="about"></div>
+        <div class="container d-flex flex-row flex-wrap justify-content-center my-5 py-5 gap-5">
+
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <img class="img-fluid shadow rounded about-img" src="./content/img/about/MarbleMachines.jpg" alt="Corporation Logo">
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 p-4">
+                <h2 class="fw-bold pb-4">Who are we?</h2>
+                <p class="fw-light">Corporation, that was established in 2000, is a marble exportation and consultancy company. The major
+                    target of the company is to export the most quality marble products to around the world
+                    according to our customer's requests. Our customers prefer us in order to obtain their needs without
+                    losing any time, by relying on our quality customer service and trust-based marketing.
+                    <br>
+                    <br>
+                    In summary, what have we been doing?
+                    <br>
+                    <br>
+                    Shortly, by regularly visiting the marble pits around the world, we collect the most quality marble stones
+                    and quickly serve our customers based on their desires.
+                    <br>
+                    <br>
+                    <i>Block marbles, slabs, and specific sizes of marble products are being supplied by trustworthy service
+                        to around the world.</i>
+                    <br>
+                    <br>
+                    The fact that we check the marble stones that are produced in many marble pits makes us be
+                    informed about where are the most quality products and helps us so that we can serve in the best way to our
+                    customers.</p>
+            </div>
+        </div>
+
+
+
+    <!-- CUSTOMER SATISFACTION -->
+    
+    <div class="container-fluid customer-img gx-0 customer-img">
+        <div class="container text-center">
+            <h2 class="fw-bold display-4">Always Pleased Customers</h2>
+            <p class="fw-light text-grey">Our priority is always to prioritise our customer's requests.
+            </p>
+            <div class="col-12 customer-space">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- CREW INFORMATION -->
+
+    <div class="container-fluid pb-5 mb-5">
+
+        <div class="container d-flex flex-wrap-reverse justify-content-center align-items-center">
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
+                <img class="w-50" src="./content/img/staff/engineer.png" alt="Engineer">
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <h2 class="fw-bold pb-3">Experienced<br>Engineer Staff</h2>
+                <p class="fw-light text-grey">With our experienced engineer staff, we directly understand the requests of our customers and supply
+                    the products they need on our product list from our the best marble pits.
+                    <br>
+                    <br>
+                    Pursuant to our staff's experience we always serve customer satisfaction-focused.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="container d-flex justify-content-center">
+
+            <div class="row w-100 crew-box py-5">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 py-4 text-center d-flex align-items-center justify-content-center">
+                    <a href="#contactus">
+                        <button type="button" class="crew-button px-5 py-4">Contact Us Now!</button>
+                    </a>
+                </div>
+    
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 py-4 text-center">
+                    <h5 class="text-white fw-light">Would you like to contact us?</h5>
+                    <h2 class="text-white fw-bold">Call Now!
+                        <img src="./content/img/staff/support_agent_white_24dp.svg" alt="">
+                    </h2>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- PRODUCT LIST -->
+
+    
+    <div id="products"></div>
+    <div class="container">
+
+        <h2 class="text-center fw-bold">Our Products</h2>
+        <p class="text-center fw-light text-grey pt-3 pb-5"> You can analyse the products, that have been produced by our producers, as you wish by <i><b>sliding</b></i> below.</p>
+
+        <div class="container productlist-bg">
+
+            <div class="row carousel">
+
+                <div class="stone-item col-sm-4">
+                    <img src="./content/img/products/tufs11.jpg">
+                    <h3>TUF-S1-1</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/tras12.jpg">
+                    <h3>TRA-S1-2</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/onyx13.jpg">
+                    <h3>ON-S1-3</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/tra14.jpg">
+                    <h3>TRA-S1-4</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars15.jpg">
+                    <h3>MAR-S1-5</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars16.jpg">
+                    <h3>MAR-S1-6</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/onyx17.jpg">
+                    <h3>ON-S1-7</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/onys18.jpg">
+                    <h3>ON-S1-8</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars21.jpg">
+                    <h3>MAR-S2-1</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars22.jpg">
+                    <h3>MAR-S2-2</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars23.jpg">
+                    <h3>MAR-S2-3</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars24.jpg">
+                    <h3>MAR-S2-4</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars25.jpg">
+                    <h3>MAR-S2-5</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars26.jpg">
+                    <h3>MAR-S2-6</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars27.jpg">
+                    <h3>MAR-S2-7</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars28.jpg">
+                    <h3>MAR-S2-8</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars29.jpg">
+                    <h3>MAR-S2-9</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars210.jpg">
+                    <h3>MAR-S2-10</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars211.jpg">
+                    <h3>MAR-S2-11</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars212.jpg">
+                    <h3>MAR-S2-12</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars31.jpg">
+                    <h3>MAR-S3-1</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars32.jpg">
+                    <h3>MAR-S3-2</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars33.jpg">
+                    <h3>MAR-S3-3</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars34.jpg">
+                    <h3>MAR-S3-4</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars35.jpg">
+                    <h3>MAR-S3-5</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars36.jpg">
+                    <h3>MAR-S3-6</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars38.jpg">
+                    <h3>MAR-S3-8</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars39.jpg">
+                    <h3>MAR-S3-9</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars41.jpg">
+                    <h3>MAR-S4-1</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars42.jpg">
+                    <h3>MAR-S4-2</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars43.jpg">
+                    <h3>MAR-S4-3</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars44.jpg">
+                    <h3>MAR-S4-4</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars51.jpg">
+                    <h3>MAR-S5-1</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars52.jpg">
+                    <h3>MAR-S5-2</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars53.jpg">
+                    <h3>MAR-S5-3</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars54.jpg">
+                    <h3>MAR-S5-4</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars61.jpg">
+                    <h3>MAR-S6-1</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars62.jpg">
+                    <h3>MAR-S6-2</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars63.jpg">
+                    <h3>MAR-S6-3</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars64.jpg">
+                    <h3>MAR-S6-4</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars65.jpg">
+                    <h3>MAR-S6-5</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars66.jpg">
+                    <h3>MAR-S6-6</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars71.jpg">
+                    <h3>MAR-S7-1</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars72.jpg">
+                    <h3>MAR-S7-2</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars73.jpg">
+                    <h3>MAR-S7-3</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars74.jpg">
+                    <h3>MAR-S7-4</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars75.jpg">
+                    <h3>MAR-S7-5</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars76.jpg">
+                    <h3>MAR-S7-6</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars77.jpg">
+                    <h3>MAR-S7-7</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars78.jpg">
+                    <h3>MAR-S7-8</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars79.jpg">
+                    <h3>MAR-S7-9</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars710.jpg">
+                    <h3>MAR-S7-10</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/gras81.jpg">
+                    <h3>GRA-S8-1</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars82.jpg">
+                    <h3>MAR-S8-2</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars83.jpg">
+                    <h3>MAR-S8-3</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/dol84.jpg">
+                    <h3>MAR-S8-4</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars85.jpg">
+                    <h3>MAR-S8-5</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars86.jpg">
+                    <h3>MAR-S8-6</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars87.jpg">
+                    <h3>MAR-S8-7</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars88.jpg">
+                    <h3>MAR-S8-8</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars89.jpg">
+                    <h3>MAR-S8-9</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars810.jpg">
+                    <h3>MAR-S8-10</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars811.jpg">
+                    <h3>MAR-S8-11</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/gra812.jpg">
+                    <h3>GRA-S8-12</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars813.jpg">
+                    <h3>MAR-S8-13</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars814.jpg">
+                    <h3>MAR-S8-14</h3>
+                </div>
+
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars815.jpg">
+                    <h3>MAR-S8-15</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars816.jpg">
+                    <h3>MAR-S8-16</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars817.jpg">
+                    <h3>MAR-S8-17</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars818.jpg">
+                    <h3>MAR-S8-18</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars819.jpg">
+                    <h3>MAR-S8-19</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars820.jpg">
+                    <h3>MAR-S8-20</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars91.jpg">
+                    <h3>MAR-S9-1</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars92.jpg">
+                    <h3>MAR-S9-2</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars93.jpg">
+                    <h3>MAR-S9-3</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars94.jpg">
+                    <h3>MAR-S9-4</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars95.jpg">
+                    <h3>MAR-S9-5</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars96.jpg">
+                    <h3>MAR-S9-6</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars97.jpg">
+                    <h3>MAR-S9-7</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars98.jpg">
+                    <h3>MAR-S9-8</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars10-1.jpg">
+                    <h3>MAR-S10-1</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars10-2.jpg">
+                    <h3>MAR-S10-2</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars10-3.jpg">
+                    <h3>MAR-S10-3</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars10-4.jpg">
+                    <h3>MAR-S10-4</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars10-5.jpg">
+                    <h3>MAR-S10-5</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars10-6.jpg">
+                    <h3>MAR-S10-6</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars10-7.jpg">
+                    <h3>MAR-S10-7</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars10-8.jpg">
+                    <h3>MAR-S10-8</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars10-9.jpg">
+                    <h3>MAR-S10-9</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars10-10.jpg">
+                    <h3>MAR-S10-10</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars10-11.jpg">
+                    <h3>MAR-S10-11</h3>
+                </div>
+
+                <div class="stone-item col-sm-4 col-md-3">
+                    <img src="./content/img/products/mars10-12.jpg">
+                    <h3>MAR-S10-12</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var slickopts = {
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            rows: 2, // Removes the linear order. Would expect stone-item 5 to be on next row, not stacked in groups.
+            responsive: [
+                {
+                    breakpoint: 430,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        rows: 2
+                    }
+                },
+                {
+                    breakpoint: 990,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        rows: 2
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        rows: 2
+                    }
+                }
+            ]
+        };
+
+        $('.carousel').slick(slickopts);
+    </script>
+
+
+
+    <!-- ORDER FORM -->
+
+    <div class="container-fluid gx-0 py-5 my-5">
+        <div class="order-bg text-center pt-5 my-5">
+            <div class="container">
+                <h1 class="fw-bold">Fill and Be Called!</h1>
+                <p class="fw-light text-grey">Choose a product from our catalog or product list, send us, and be called by us as possible as fast!</p>
+                <button type="button" class="order-button px-5 py-3 my-3">PURCHASE FORM</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CONTACT -->
+
+    <div id="contact"></div>
+    <div class="container-fluid">
+        <div class="container">
+
+            <h2 class="text-center fw-bold">Contact</h2>
+            <p class="text-center fw-light text-grey pb-4">You can contact us whether by calling us or from our social media accounts.</p>
+
+            <div class="row contact-bg">
+
+                <div class="col-12 d-flex flex-wrap justify-content-center">
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center p-4">
+                        <input type="text" name="name" id="name" placeholder="Full Name" class="py-3 px-0">
+                        <input type="text" name="tel" id="tel" placeholder="Phone" class="py-3">
+                        <input type="text" name="email" id="email" placeholder="E-Mail" class="py-3">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" class="contact-textarea"></textarea>
+                        <button type="submit" class="contact-button text-center py-3">SUBMIT</button>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center p-4">
+
+                        <div class="col-12 contact-info p-4 m-2">
+                            
+                            <h5 class="text-white fw-bold">
+                                <img src="./content/img/contact/phone.png" alt="Phone">
+                                Phone
+                            </h5>
+
+                            <p class="text-white fw-light">ASIA | +123 456 789 00 00<br>
+                                EU | +123 456 789 00 00</p>
+                        </div>
+
+
+                        <div class="col-12 contact-info p-4 m-2">
+                            
+                            <h5 class="text-white fw-bold">
+                                <img src="./content/img/contact/feed.png" alt="Social">
+                                Social Media
+                            </h5>
+
+                            <a href="#">
+                                <img class="p-2" src="./content/img/contact/whatsapp.png" alt="Whatsapp">
+                            </a>
+
+                            <a href="#">
+                                <img class="p-2"src="./content/img/contact/facebook.png" alt="Facebook">
+                            </a>
+
+                            <a href="#">
+                                <img class="p-2"src="./content/img/contact/instagram.png" alt="Instagram">
+                            </a>
+
+                            <a href="#">
+                                <img class="p-2"src="./content/img/contact/wechat.png" alt="WeChat">
+                            </a>
+
+                            <a href="#">
+                                <img class="p-2" src="./content/img/contact/skype.png" alt="Skype">
+                            </a>
+                            
+                        </div>
+
+                        
+                        <div class="col-12 contact-info p-4 m-2">
+                            
+                            <h5 class="text-white fw-bold">
+                                <img src="./content/img/contact/mail.png" alt="Social">
+                                Mail
+                            </h5>
+
+                            <p class="text-white fw-light">hello@corporation.com</p>
+                        </div>
+
+                        <div class="col-12 contact-info p-4 m-2">
+
+                            <h5 class="fw-bold text-white">
+                                <img src="content/img/contact/location.png" alt="Location">
+                                Office
+                            </h5>
+                            <p class="fw-light text-white">Dublin/Ireland
+                                <br>
+                                DXX XXXX
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 w-100 text-center">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152515.69312067638!2d-6.245704099999999!3d53.324320099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A0xa00c7a9973171a0!2sDublin!5e0!3m2!1sen!2sie!4v1662420902910!5m2!1sen!2sie" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="row pt-5 mt-5 d-flex flex-wrap-reverse">
+
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <img class="w-75" src="content/img/footer/customerserv.png" alt="Customer">
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center flex-column p-5">
+                    <h2 class="fw-bold">It's Corporation Time!</h2>
+                     <p class="fw-light">If you would like to be served without any issues and have quality products, it is time to contact us! We are pleased by giving service you with our experienced staff, low-cost and trust-based
+                    service understanding.
+                    <br>
+                    <br>
+                    Now contact Corporation and benefit from great service opportunities!
+                </p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="container-fluid footer-bg">
+
+            <div class="container">
+
+                <div class="row py-5">
+
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 p-3">
+                        <img class="img-fluid" src="./content/img/welcome/logo.png" alt="Logo">
+                        <br>
+                        <br>
+                        <p class="fw-light text-white pb-4"> Corporation Ltd. &copy; 2000
+                            <br>
+                            All Rights Reserved
+                        </p>
+
+                        <h5 class="text-white fw-bold">
+                            <img src="./content/img/contact/feed.png" alt="Social">
+                            Follow Us
+                        </h5>
+
+                        <a href="#">
+                            <img class="p-2" src="./content/img/contact/whatsapp.png" alt="Whatsapp">
+                        </a>
+
+                        <a href="#">
+                            <img class="p-2"src="./content/img/contact/facebook.png" alt="Facebook">
+                        </a>
+
+                        <a href="#">
+                            <img class="p-2"src="./content/img/contact/instagram.png" alt="Instagram">
+                        </a>
+
+                        <a href="#">
+                            <img class="p-2"src="./content/img/contact/wechat.png" alt="WeChat">
+                        </a>
+
+                        <a href="#">
+                            <img class="p-2" src="./content/img/contact/skype.png" alt="Skype">
+                        </a>
+
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 p-3">
+
+                        <h5 class="fw-bold text-white">ABOUT</h5>
+                    <p class="fw-light text-white">Corporation, that was established in 2000, is a marble exportation and consultancy company. The major
+                        target of the company is to export the most quality marble products to around the world
+                        according to our customer's requests. Our customers prefer us in order to obtain their needs without
+                        losing any time, by relying on our quality customer service and trust-based marketing.
+                    </p>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 p-3">
+
+                        <h5 class="fw-bold text-white">CONTACT</h5>
+                        <br>
+                        <p class="fw-light text-white"> 
+                            <img src="./content/img/footer/home_white_24dp.svg" alt="Address">
+                            Address: Dublin/Ireland DXX XXXX
+                        </p>
+
+                        <p class="fw-light text-white"> 
+                            <img src="./content/img/footer/phone_iphone_white_24dp.svg" alt="Phone">
+                            Phone: +123 (456) 7890000
+                            | TR
+                        </p>
+
+                        <p class="fw-light text-white">
+                            <img src="./content/img/footer/phone_iphone_white_24dp.svg" alt="Phone">
+                            Phone: +123 (456) 7890000
+                            | EU
+                        </p>
+
+                        <p class="fw-light text-white">
+                            <img src="./content/img/footer/mail_white_24dp.svg" alt="Mail">
+                            hello@corporation.com
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+
+
+</body>
+
+
+
+</html>
